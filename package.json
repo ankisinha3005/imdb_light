@@ -1,0 +1,33 @@
+{
+  "name": "react_movie_db_course",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://ankisinha3005.github.io/react-movie-database",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-fontawesome": "^1.7.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "description": "Movie Database created using React and The Movie Database API following the Udemy course [Learn React the Fun Way](https://www.udemy.com/learn-react-the-fun-way/).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "ankitsinha",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankisinha3005/light_IMDB.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ankisinha3005/light_IMDB/issues"
+  }
+}
